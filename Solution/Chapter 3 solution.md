@@ -5,7 +5,7 @@ Definition of Laplace Transform: $\mathcal{L}\{f(t)\} = \int_{0}^{\infty} e^{-st
 
 **1. $f(t) = t$**
 
-> \*\*Solution:\*\*
+> Solution:
 > $$\mathcal{L}\{t\} = \int_{0}^{\infty} e^{-st} t dt$$
 > Using integration by parts: Let $u=t \implies du=dt$, and $dv = e^{-st}dt \implies v = -\frac{1}{s}e^{-st}$.
 > $$\mathcal{L}\{t\} = \left[ -\frac{t}{s}e^{-st} \right]_0^\infty + \int_{0}^{\infty} \frac{1}{s}e^{-st} dt = 0 + \left[ -\frac{1}{s^2}e^{-st} \right]_0^\infty = \frac{1}{s^2} \quad (s > 0)$$
