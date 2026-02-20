@@ -221,7 +221,7 @@
 
 **6. $a(t)=\sqrt{t^2+4}, v_0=-1, x_0=1$**
 
-> **Answer:** $x(t) = \frac{t^2}{6}\sqrt{t^2+4} + 2t\operatorname{arsinh}(t/2) - t - \frac{4}{3}\sqrt{t^2+4} + \frac{11}{3}$.
+> **Answer:** $x(t) = \frac{t^2}{6}\sqrt{t^2+4} + 2t\text{arsinh}(t/2) - t - \frac{4}{3}\sqrt{t^2+4} + \frac{11}{3}$.
 
 **7. $a(t)=\frac{1}{(t+1)^3}, v_0=0, x_0=0$**
 
